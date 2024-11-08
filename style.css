@@ -27,3 +27,40 @@
     gap: 10px;
     align-items: center;
 }
+
+.cabecalho ul {
+    list-style: none;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: black;
+}
+
+.cabecalho-ctt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.cabecalho-ctt a {
+    background-color: red;
+    color: antiquewhite;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.cabecalho-menu a {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px #D98452 solid;
+}
