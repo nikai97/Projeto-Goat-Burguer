@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     border: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cabecalho {
@@ -52,9 +53,10 @@
 }
 
 .cabecalho-ctt a {
-    background-color: red;
-    color: antiquewhite;
+    background-color: #DB943D;
+    color: rgb(0, 0, 0);
     padding: 5px;
+    border: 2px black solid;
     border-radius: 4px;
     font-size: 20px;
 }
@@ -63,4 +65,18 @@
     font-size: 20px;
     font-weight: bold;
     border-bottom: 2px #D98452 solid;
+}
+
+.conteudo-principal {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    align-items: center;
+    background-color: #171F26;
+}
+
+.conteudo-principal img {
+    width: 600px;
+    border: 5px rgb(235, 192, 0) solid;
+    border-radius: 4px;
 }
