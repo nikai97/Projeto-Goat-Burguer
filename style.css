@@ -80,3 +80,24 @@
     border: 5px rgb(235, 192, 0) solid;
     border-radius: 4px;
 }
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape h1 {
+    background-color: #DB943D;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.rodape img {
+    width: 20px;
+}
+
+
+
+    
