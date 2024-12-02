@@ -2,7 +2,12 @@
     padding: 0;
     margin: 0;
     border: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif,;
+}
+
+
+body {
+    background-color: #171F26;
 }
 
 .cabecalho {
@@ -75,9 +80,11 @@
     padding: 12%;
 }
 
-.conteudo-principal img {
+.conteudo-principal-img img {
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
     width: 600px;
-    border: 5px rgb(235, 192, 0) solid;
     border-radius: 4px;
 }
 
@@ -87,6 +94,39 @@
     border: black solid 4px;
     border-radius: 4px;
 }
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f23207;
+    clip-path: circle(50% at bottom right);
+}
+
+.menu-principal {
+    background-color: #171F26;
+}
+
+.menu-text h1 {
+    position: absolute;
+    left: 120px;
+    top: 325px;
+    color: aliceblue;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.menu-text-2 h1 {
+    position: absolute;
+    left: 130px;
+    top: 400px;
+    color: aliceblue;
+    font-size: 60px;
+    font-weight: bold;
+}
+
 
 .rodape {
     display: flex;
