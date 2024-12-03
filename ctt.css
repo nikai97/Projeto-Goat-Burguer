@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif,;
+}
+
+
+body {
+    background-color: #171f26;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: #F2A341;
+    padding: 10px;
+    border-bottom: 5px #D98452 solid;
+}
+
+.cabecalho img {
+    width: 50px;
+}
+
+.cabecalho h1 {
+    font-size: 25px;
+}
+
+.cabecalho-h1 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cabecalho ul {
+    list-style: none;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: black;
+}
+
+.cabecalho-ctt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.cabecalho-ctt a {
+    background-color: #DB943D;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border: 2px black solid;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.cabecalho-menu a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cabecalho-ctt a:hover {
+    transition-delay: 0.1s;
+    background-color: #81613a
+}
+
+.cabecalho-menu a:hover {
+    transition-delay: 0.1s;
+    border-bottom: #D98452 2px solid;
+}
+
+.ctt-nome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 100px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ctt-nome label {
+    background-color: #DB943D;
+    padding: 5px;
+    border: black solid 2px;
+}
+
+.ctt-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ctt-email label {
+    background-color: #DB943D;
+    padding: 5px;
+    border: black solid 2px;
+}
+
+.ctt-fone label {
+    background-color: #DB943D;
+    padding: 5px;
+    border: black solid 2px;
+}
+
+.ctt-motivo label {
+    background-color: #DB943D;
+    padding: 5px;
+    border: black solid 2px;
+}
+
+.ctt-descricao label {
+    background-color: #DB943D;
+    padding: 5px;
+    border: black solid 2px;
+}
+
+.ctt-fone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ctt-motivo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ctt-descricao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ctt-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.ctt-botao button {
+    width: 100px;
+    padding: 10px;
+    border: black solid 2px;
+    border-radius: 6px;
+    background-color: #DB943D;
+} 
+
+.ctt-botao button:hover {
+    transition-delay: 0.1s;
+    background-color: #81613a;
+}
+
+.ctt-nome input:hover {
+    transition-delay: 0.1s;
+    background-color: rgb(119, 119, 119);
+}
+
+.ctt-email input:hover {
+    transition-delay: 0.1s;
+    background-color: rgb(119, 119, 119);
+}
+
+.ctt-fone input:hover {
+    transition-delay: 0.1s;
+    background-color: rgb(119, 119, 119);
+}
+
+.ctt-motivo input:hover {
+    transition-delay: 0.1s;
+    background-color: rgb(119, 119, 119);
+}
+
+.ctt-descricao input:hover {
+    transition-delay: 0.1s;
+    background-color: rgb(119, 119, 119);
+} 

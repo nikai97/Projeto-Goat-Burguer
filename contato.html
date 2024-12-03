@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GoatBurguer-Contato</title>
 </head>
+<link rel="stylesheet" href="ctt.css">
 <body>
     <header>
         <div class="cabecalho">
@@ -28,17 +29,41 @@
         </div>
     </header>
 
-    <footer>
-        <div class="rodape">
-        <h1>goatburguer@gmail.com</h1>
-        <h1>Todos os direitos reservados</h1>
-        <h1>desde 2024</h1>
-        <div class="rodape-ctt">
-            <h1>(11) 91234-5678</h1>
-            <img src="/assets/phone.svg" alt="telefone icone">
+    <main>
+        <div class="ctt-nome">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome">
         </div>
-        
+
+        <div class="ctt-email">
+            <label for="email">Email</label>
+            <input type="email" id="email">
         </div>
-    </footer>
+
+        <div class="ctt-fone">
+            <label for="fone">Telefone</label>
+            <input type="text" id="fone">
+        </div>
+
+        <div class="ctt-motivo">
+            <label for="motivo">Motivo</label>
+            <select name="motivo" id="motivo">
+                <option value="motive1">Reclamações/sugestões</option>
+                <option value="motive2">Elogios</option>
+                <option value="motive3">Informações/consultas</option>
+                <option value="motive4">Recompensa</option>
+                <option value="motive5">Dados pessoais</option>
+            </select>
+        </div>
+
+        <div class="ctt-descricao">
+            <label for="description">Descrição</label>
+            <textarea name="descricao" id="descricao" rows="5" cols="20"></textarea>
+        </div>
+
+        <div class="ctt-botao">
+            <button type="submit">Enviar</button>
+        </div>
+    </main>
 </body>
 </html>
