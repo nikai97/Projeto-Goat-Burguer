@@ -1,218 +1,149 @@
 * {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    font-family: Arial, Helvetica, sans-serif,;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
-
 body {
-    background-color: #171f26;
+  background-color: #171f26;
 }
 
 .cabecalho {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-    background-color: #F2A341;
-    padding: 10px;
-    border-bottom: 5px #D98452 solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background-color: #f2a341;
+  padding: 10px;
+  border-bottom: 5px #d98452 solid;
 }
 
 .cabecalho img {
-    width: 50px;
+  width: 50px;
 }
 
 .cabecalho h1 {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .cabecalho-h1 {
-    display: flex;
-    gap: 10px;
-    align-items: center;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 .cabecalho ul {
-    list-style: none;
+  list-style: none;
 }
 
 .cabecalho a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .cabecalho-ctt {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
 
 .cabecalho-menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 
 .cabecalho-ctt a {
-    background-color: #DB943D;
-    color: rgb(0, 0, 0);
-    padding: 5px;
-    border: 2px black solid;
-    border-radius: 4px;
-    font-size: 20px;
+  background-color: #db943d;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  border: 2px black solid;
+  border-radius: 4px;
+  font-size: 20px;
 }
 
 .cabecalho-menu a {
-    font-size: 20px;
-    font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .cabecalho-ctt a:hover {
-    transition-delay: 0.1s;
-    background-color: #81613a
+  transition-delay: 0.1s;
+  background-color: #81613a;
 }
 
 .cabecalho-menu a:hover {
-    transition-delay: 0.1s;
-    border-bottom: #D98452 2px solid;
+  transition-delay: 0.1s;
+  border-bottom: #d98452 2px solid;
 }
 
-.ctt-nome {
+main {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-top: 100px;
-    color: rgb(0, 0, 0);
-    font-size: 25px;
-    font-weight: bold;
-    text-decoration: none;
+    width: 100%;
 }
 
-.ctt-nome label {
-    background-color: #DB943D;
-    padding: 5px;
-    border: black solid 2px;
+.ctt-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 100px;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #db943d;
+  border: black solid 4px;
+  border-radius: 6px;
+  padding: 5px;
 }
 
-.ctt-email {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-top: 8px;
-    color: rgb(0, 0, 0);
-    font-size: 25px;
-    font-weight: bold;
-    text-decoration: none;
+.ctt-email input {
+  width: 80%;
+  border-radius: 6px;
+
 }
 
-.ctt-email label {
-    background-color: #DB943D;
-    padding: 5px;
-    border: black solid 2px;
+.ctt-nome input {
+  width: 80%;
+  border-radius: 6px;
 }
 
 .ctt-fone label {
-    background-color: #DB943D;
-    padding: 5px;
-    border: black solid 2px;
+  margin-left: 110px;
 }
 
-.ctt-motivo label {
-    background-color: #DB943D;
-    padding: 5px;
-    border: black solid 2px;
+.ctt-fone input {
+  width: 44%;
+  border-radius: 6px;
+  margin-left: 110px;
 }
 
-.ctt-descricao label {
-    background-color: #DB943D;
-    padding: 5px;
-    border: black solid 2px;
-}
-
-.ctt-fone {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-top: 8px;
-    color: rgb(0, 0, 0);
-    font-size: 25px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.ctt-motivo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-top: 8px;
-    color: rgb(0, 0, 0);
-    font-size: 25px;
-    font-weight: bold;
-    text-decoration: none;
+.ctt-box select {
+  width: 80%;
+  border-radius: 6px;
 }
 
 .ctt-descricao {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-top: 8px;
-    color: rgb(0, 0, 0);
-    font-size: 25px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.ctt-botao {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-top: 10px;
+  width: 80%;
+  border-radius: 6px;
 }
 
 .ctt-botao button {
-    width: 100px;
-    padding: 10px;
-    border: black solid 2px;
-    border-radius: 6px;
-    background-color: #DB943D;
-} 
+  padding: 5px;
+  background-color: #f8af56;
+  border: black 2px solid;
+  border-radius: 4px;
+}
 
 .ctt-botao button:hover {
-    transition-delay: 0.1s;
-    background-color: #81613a;
+  transition-delay: 0.1s;
+  background-color: #7c5b33;
 }
+  
 
-.ctt-nome input:hover {
-    transition-delay: 0.1s;
-    background-color: rgb(119, 119, 119);
-}
-
-.ctt-email input:hover {
-    transition-delay: 0.1s;
-    background-color: rgb(119, 119, 119);
-}
-
-.ctt-fone input:hover {
-    transition-delay: 0.1s;
-    background-color: rgb(119, 119, 119);
-}
-
-.ctt-motivo input:hover {
-    transition-delay: 0.1s;
-    background-color: rgb(119, 119, 119);
-}
-
-.ctt-descricao input:hover {
-    transition-delay: 0.1s;
-    background-color: rgb(119, 119, 119);
-} 
